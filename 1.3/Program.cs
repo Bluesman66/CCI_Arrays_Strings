@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
 Напишите метод, заменяющий в строке все пробелы символами '%20'. Фактическая длина строки известна заранее.  
 Вместо строки используйте символьный массив.
+Пример:
+Ввод: "Mr John Smith   "
+Вывод: "Mr%20John%20Smith%20%20%20"
 */
 
 namespace _1._3

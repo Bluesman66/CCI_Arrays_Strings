@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
 Напишите функцию, которая проверяет, является ли заданная строка перестановкой палиндрома?
@@ -74,12 +70,12 @@ namespace _1._4
 		// Каждый символ связывается с числом: a -> 0, b -> 1..., небуквенный -1
 		private static int GetCharNumber(char c)
 		{
-			var a = (int) 'a';
-			var z = (int) 'z';
-			var A = (int) 'A';
-			var Z = (int) 'Z';
+			var a = (int)'a';
+			var z = (int)'z';
+			var A = (int)'A';
+			var Z = (int)'Z';
 
-			var val = (int) c;
+			var val = (int)c;
 			if (a <= val && val <= z)
 			{
 				return val - a;

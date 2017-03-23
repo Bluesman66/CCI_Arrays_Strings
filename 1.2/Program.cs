@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /*
-1.2 Для двух строк напишите метод, проверяющий является ли одна строка перестановкой другой?
-	Используется набор символов ASCII.
+Для двух строк напишите метод, проверяющий является ли одна строка перестановкой другой?
+Используется набор символов ASCII.
 */
 
 namespace _1._2
